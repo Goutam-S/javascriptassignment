@@ -13,12 +13,7 @@ function add(a,b)
    return a+b;
 }
 console.log(add(3,4));//output 7
-add.prototype.inc=function(i)
-{
-    i+=1;
-    return i;
 
-}
 //----------------------------------------------------------------------------//
 console.log("output of mul function");
 function mul(a,b)
